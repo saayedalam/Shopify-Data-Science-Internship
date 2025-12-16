@@ -39,3 +39,6 @@ models:
   project_1:
     staging:
       +materialized: view
+
+    marts:
+      +materialized: table
